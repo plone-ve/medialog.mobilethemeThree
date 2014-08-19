@@ -1,4 +1,7 @@
-/* @override http://localhost:8080/holbergstuen/++theme++medialog.mobilethemeThree/++theme++medialog.mobilethemeThree/assets/mobilethree.css */
+/* @override 
+	http://localhost:8080/holbergstuen/++theme++medialog.mobilethemeThree/++theme++medialog.mobilethemeThree/assets/mobilethree.css
+	http://localhost:8080/holbergstuen/front-page/++theme++medialog.mobilethemeThree/assets/mobilethree.css
+*/
 
 #portal-logo img {
 	zoom: 80%;
@@ -14,7 +17,17 @@ h1,h2,h3,h4,h5,h6 {
 	color: #333;
 }
 
+div.content.left{
+	float: left;
+	max-width: 39em;
+	margin-right: 100px;
+	}
+	
+div.right {
+	float: left;
+	width: 12em;
 
+}
 h1,h2,h3,h4,h5,h6,figcaption {
 	text-transform: capitalize;
 }
@@ -618,17 +631,15 @@ body {
 
 .menu {
 	list-style: none;
-	margin: 0;
+	margin: 1em 0 0;
 	padding: 0;
 	font-size: 1.2em;
 }
+ 
 
 .menu li {
-	display: block;
-}
-
-.menu li {
-	margin-bottom: 5px;
+	margin-left: 0.7em;
+ 	margin-bottom: 5px;
 }
 
 .menu a {
@@ -663,8 +674,8 @@ body {
 	background: url('++theme++medialog.mobilethemeThree/assets/images/info.png') no-repeat;
 }
 
-.home a:before,.home span:before,.home .span:before {
-	background: url('++theme++medialog.mobilethemeThree/assets/images/home.png') no-repeat;
+.home  {
+	background: url('++theme++medialog.mobilethemeThree/assets/IcoMoon/Icons/png/32px/home.png') no-repeat;
 }
 
 .gear a:before,.gear span:before,.gear .span:before {
@@ -687,12 +698,21 @@ body {
 	background: url('++theme++medialog.mobilethemeThree/assets/images/call.png') no-repeat;
 }
 
-.navigation a:before,.navigation span:before,.navigation .span:before {
-	background: url('++theme++medialog.mobilethemeThree/assets/images/location-24.png') no-repeat;
+.navigation  {
+	background: url('++theme++medialog.mobilethemeThree/assets/IcoMoon/Icons/png/32px/map.png') no-repeat;
 }
 
 .mail a:before,.mail span:before,.mail .span:before {
 	background: url('++theme++medialog.mobilethemeThree/assets/images/mail.png') no-repeat;
+}
+
+
+.meny   {
+	background: url('++theme++medialog.mobilethemeThree/assets/IcoMoon/Icons/png/32px/file-pdf.png') no-repeat;
+}
+ 
+.bell   {
+	background: url('++theme++medialog.mobilethemeThree/assets/IcoMoon/Icons/png/32px/book.png') no-repeat;
 }
 
 ul.small {

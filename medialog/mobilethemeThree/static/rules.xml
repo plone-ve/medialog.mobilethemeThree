@@ -8,6 +8,7 @@
     <rules css:if-content="#visual-portal-wrapper">
     	<!-- define Theme template for front-page -->
       	<theme href="index.html" css:if-content="body.section-front-page" />
+      	<theme href="bordbestilling.html" css:if-content="body.section-bordbestilling" />
       	
       	<!-- define Theme template for some other page -->
       	<!-- theme href="index.html" css:if-content="body.section-some-section" /-->

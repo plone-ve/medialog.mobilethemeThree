@@ -42,6 +42,11 @@
     font-size: 90%;
 }
 
+/*edit bar */
+#edit-bar {
+	clear: both;
+}
+
 /*
 ** begin ECMAScript Content Action Menus
 */
