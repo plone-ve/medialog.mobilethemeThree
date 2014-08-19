@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+  <head>
+    <meta charset="utf-8">
+    <title>Holbergstuen – ekte bergensk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="På Holbergstuen har vi siden 1927 hatt Bergens triveligste gjester">
+    <meta name="author" content="Espen Moe-Nilssen">
+    <!--meta name="apple-mobile-web-app-capable" content="yes" /-->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="shortcut icon" sizes="196x196" 
+    	href="++theme++medialog.mobilethemeThree/assets/images/addbutton.png">
+    <link rel="apple-touch-icon"  sizes="196x196" 
+    	href="++theme++medialog.mobilethemeThree/assets/images/addbutton.png">
+    
+    <link href="++theme++medialog.mobilethemeThree/assets/mobilethree.css" rel="stylesheet">
+    <link href="++theme++medialog.mobilethemeThree/assets/navigation.css" rel="stylesheet">
+    <link href="++theme++medialog.mobilethemeThree/assets/authoring.css"  rel="stylesheet">  
+    <!--link href="++theme++medialog.mobilethemeThree/assets/reset.css" rel="stylesheet"-->
+    <link href="++theme++medialog.mobilethemeThree/assets/invisibles.css"   rel="stylesheet">
+    <link href="https://github.com/cubiq/add-to-homescreen/blob/master/style/addtohomescreen.css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    
+    <script src="++resource++plone.app.jquery.js"></script>
+    <script src="++theme++medialog.mobilethemeThree/assets/addtohomescreen.min.js"></script>
+  
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+	<body >
+	<!-- header -->
+	<div id="portal-logo" />
+
+    <div id="portal-searchbox" />
+    <!-- skip login -->
+    <-div id="portal-personaltools" /-->
+    <div><ul class="mobileButtons"></ul></div>
+    <div id="portal-globalnav" />
+    
+    <div class="container">
+        <!-- Image Slider -->
+        <ul id="slider" class="slider">
+              <li><img src="++theme++medialog.mobilethemeThree/assets/images/holbergstuen.jpg" alt="" /></li>
+              <li><img src="++theme++medialog.mobilethemeThree/assets/images/holbergstuen2.jpg" alt="" /></li>
+        </ul>
+        <div class="content">
+          <h2>Holbergstuen – Ekte Bergensk!</h2>
+          <p>På Holbergstuen har vi siden 1927 hatt Bergens triveligste gjester. <br/>
+           I vårt nostalgiske interiør får du et koselig avbrekk fra byens kjas og mas.</p>
+        </div>
+        <aside>
+            <a name="menu"></a>
+            <ul class="menu">
+                <li class="icon home"><a href="/">Hjem</a></li>
+                <li class="icon info"><a href="about">Om oss</a></li>
+                <li class="icon navigation"><a href="services">Kart</a></li>
+                <li class="icon bubble"><a href="contact-form">Kontakt</a></li>
+                <li class="icon menu"><a href="menu">Meny</a></li>
+            </ul>
+        </aside>
+		</div>
+		<footer class="footer">
+			<p><br/>Torgalmenningen 6, N - 5014 Bergen, <br/>
+			Tlf +47 55 55 20 55 <a href="mailto:post@holbergstuen.no">post@holbergstuen.no</a></p>
+			<p><b>Åpningtider:</b> Man - Lør: 11.00 - 23.30, Søn:14.00 - 23.30</p>
+
+		</footer>
+  
+			<div class="social">
+				<a href="http://nb-no.facebook.com/pages/Holbergstuen/113295855409241"><img src="++theme++medialog.mobilethemeThree/assets/images/1400611976_facebook.png" alt=""></a>
+				<a href="http://www.tripadvisor.in/Restaurant_Review-g190502-d739775-Reviews-Holbergstuen-Bergen_Hordaland_Western_Norway.html">
+					<img src="++theme++medialog.mobilethemeThree/assets/images/tripadvisor24.png" alt=""></a>
+				<a href="http://www.enjoygram.com/tag/holbergstuen">
+					<img src="++theme++medialog.mobilethemeThree/assets/images/1400612000_instagram.png" alt=""></a>
+			</div>
+		</div>
+	
+	 <!-- javascript for slider -->
+
+     <script src="++theme++medialog.mobilethemeThree/assets/slider.min.js"></script>
+		<script>
+		$(function () {
+		
+		  // Slideshow 1
+		  $("#slider").responsiveSlides({
+		    maxwidth: 800,
+		    speed: 800
+		  });
+		
+		});
+		addToHomescreen({
+   			maxDisplayCount: 2
+		});
+		</script> 	
+ 	</body>
+</html>

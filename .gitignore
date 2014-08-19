@@ -1,0 +1,9 @@
+ 
+*.gz
+
+*.pyc
+
+ 
+.DS_Store
+
+medialog.mobilethemeThree.egg-info 
