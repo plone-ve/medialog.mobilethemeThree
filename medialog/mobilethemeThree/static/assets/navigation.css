@@ -1,29 +1,8 @@
-/* @override http://localhost:8080/holbergstuen/++theme++medialog.mobilethemeThree/++theme++medialog.mobilethemeThree/assets/navigation.css */
+/* @override 
+	http://localhost:8080/holbergstuen/++theme++medialog.mobilethemeThree/++theme++medialog.mobilethemeThree/assets/navigation.css
+	http://localhost:8080/holbergstuen/front-page/++theme++medialog.mobilethemeThree/assets/navigation.css
+*/
 
-/* @group buttons */
-
-.mobileButtons {
-	float: right;
-	top: 2px;
-	right: 0;
-	display: none;
-	margin: 0;
-}
-
-.mobileButtons a {
-	width: 24px;
-	height: 24px;
-	padding: 16px;
-	display: block;
-	background: url(++resource++ftw.mobilenavigation/mobile_buttons.png) no-repeat center center #aaa;
-	float: right;
-}
-
-/* @end group */
-
-/* @group mobile navigation */
-
- 
 #portal-globalnav  {
 	clear: both;
 	margin:  auto ;
@@ -121,11 +100,25 @@
 	display: block;
 }
 
+
 .mobileButtons {
+	float: right;
+	margin: 0;
 	display: block;
 	z-index: 4;
     list-style:none;
+    padding-left: 0;
 }
+
+.mobileButtons a {
+	width: 24px;
+	height: 24px;
+	padding: 16px;
+	display: block;
+	background: url(++resource++ftw.mobilenavigation/mobile_buttons.png) no-repeat center center #aaa;
+	float: right;
+}
+
 
 .mobileButtons li {
     display: block;

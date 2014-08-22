@@ -44,7 +44,7 @@ class Manifest(BrowserView):
 /++theme++medialog.mobilethemeThree/assets/reset.css 
 /++theme++medialog.mobilethemeThree/assets/slider.min.js
 /contact-info
-/sitemap
+#/sitemap
 %s
 
 # offline.html will be displayed if the user is offline
