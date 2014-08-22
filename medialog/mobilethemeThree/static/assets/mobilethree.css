@@ -842,11 +842,6 @@ img.button {
 }
 
 img.button:hover {
-	-webkit-transform: rotate(357deg);
-	-moz-transform: rotate(357deg);
-	-ms-transform: rotate(357deg);
-	-o-transform: rotate(357deg);
-	transform: rotate(357deg);
 	opacity: 1;
 }
 
