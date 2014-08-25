@@ -836,8 +836,10 @@ div.tileItem {
 }
 
 img.button {
-	margin-left: 1.5em;
-	margin-right: 1.5em;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 28%;
+	height: auto;
 	opacity: 0.8
 }
 

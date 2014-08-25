@@ -27,6 +27,9 @@
 /* h1,h2,h3,h4,h5,h6,pre,code { font-size:1em; }  /* Browsers are inconsistent here, reset */
 /* a img,:link img,:visited img { border:none } /* Linked images should not have borders */
 
+.hidden {
+	display:  none;
+}
 
 /* List classes without markers */
 ul.visualNoMarker,
