@@ -7,7 +7,7 @@
     <!-- Prevent theme usage in zmi-->
     <rules css:if-content="#visual-portal-wrapper">
     	<!-- define Theme template for front-page -->
-      	<theme href="index.html"  />
+      	<theme href="index.html"  css:if-content="body.section-front-page"/>
       	<theme href="bordbestilling.html" css:if-content="body.section-bordbestilling" />
       	
       	<!-- define Theme template for some other page -->
@@ -36,10 +36,10 @@
         <!--before content='/html/head' theme='/html/head' /-->
 
         <!-- Drop styles in the head - these are added back by including them from Plone -->
-        <drop theme="/html/head/style" />
+        <!--drop theme="/html/head/style" /-->
 
         <!-- Pull in Plone CSS -->
-        <!-- after theme-children="/html/head" content="/html/head/link | /html/head/style-" /-->
+        <after theme-children="/html/head" content="/html/head/link | /html/head/style" />
 
 
         <!-- Pull in Plone JS -->

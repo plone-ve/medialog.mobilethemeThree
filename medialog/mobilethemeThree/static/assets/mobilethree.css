@@ -259,6 +259,11 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+#slider   img {
+margin: 0;
+padding: 0;	
+}
 .image-left {
 	float:  left;
 	margin-right:  1em;
@@ -863,12 +868,26 @@ img.button:hover {
     opacity:  0;
 }
 
+#supersized li  img {
+	max-width: 4000px;
+	max-height: 2700px;
+}
+
+div.slider-image {
+	
+    padding: 0 !important;
+    margin:  0 !important;
+    border-bottom
+    
+}
+
 #slider li.crossfade-current {
  list-style-type: none;
     list-style-image: none;
     height: auto;;
     z-index: 2;
     opacity:  1;
+
 }
 #slider  ul,
 #slider li,
