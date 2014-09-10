@@ -7,7 +7,7 @@
     <!-- Prevent theme usage in zmi-->
     <rules css:if-content="#visual-portal-wrapper">
     	<!-- define Theme template for front-page -->
-      	<theme href="index.html" css:if-content="body.section-front-page" />
+      	<theme href="index.html"  />
       	<theme href="bordbestilling.html" css:if-content="body.section-bordbestilling" />
       	
       	<!-- define Theme template for some other page -->
@@ -27,6 +27,8 @@
       	<!-- drop html from external site used in the scrape view-->
         <!--drop css:content=".imageset" css:if-content="body.template-scrape" /-->
         
+        <!--drop hard coded widths set in image tags /-->
+        <drop attributes="width" css:content="img" />
         
         <replace content="/html/head/title" theme="/html/head/title" />
         <replace content="/html/head/base" theme="/html/head/base" />
