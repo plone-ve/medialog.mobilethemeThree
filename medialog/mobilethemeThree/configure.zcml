@@ -26,7 +26,7 @@
     layer="medialog.mobilethemeThree.interfaces.IMobilethemeThreeLayer" /-->
       
   <browser:page
-    name="cache.manifest"
+    name="cache.manifest3"
     for="plone.app.layout.navigation.interfaces.INavigationRoot"
     class=".views.Manifest"
     permission="zope2.Public"
