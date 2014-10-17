@@ -1,4 +1,10 @@
+/* @override http://localhost:8080/wayforward/++theme++medialog.Wayforwardtheme/++theme++medialog.Wayforwardtheme/assets/authoring.css */
+
  
+ .overlay  {
+	background: white;
+	padding: 1em;
+}
 /* Editable border */
 
 .contentViews {
@@ -45,6 +51,8 @@
 /*edit bar */
 #edit-bar {
 	clear: both;
+	z-index:12;
+	position:  relative;
 }
 
 /*
@@ -361,8 +369,6 @@ dl.collapsedInlineCollapsible dt.collapsibleHeader {
     padding: 0;
 }
 .label {
-    font-weight: bold;
-    display: inline;
     padding-right: 0.5em;
 }
 .optionsToggle {
