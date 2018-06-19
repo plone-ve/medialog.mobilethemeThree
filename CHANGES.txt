@@ -2,7 +2,10 @@ Changelog
 =========
 
 
-0.1dev 
+0.1dev (unreleased)
 -------------------
+
+- Added improvements about README file [macagua]
+
 - Package created 
 
