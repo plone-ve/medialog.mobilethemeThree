@@ -5,6 +5,8 @@ Changelog
 0.1dev (unreleased)
 -------------------
 
+- Added more strings classifiers items for the metadata package [macagua]
+
 - Updated diazo theme manifest file [macagua]
 
 - Added improvements about README file [macagua]
