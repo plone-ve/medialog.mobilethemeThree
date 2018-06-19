@@ -112,7 +112,8 @@ A theme intended for use with mobile theming control panel (``zettwerk.mobilethe
 
 You probably want to use the theme like this:
 
-- install ``zettwerk.mobiletheming`` package
+..
+  - install ``zettwerk.mobiletheming`` package
 
 - install ``medialog.mobilethemeThree`` package
 

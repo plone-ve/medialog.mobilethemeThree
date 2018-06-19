@@ -5,6 +5,8 @@ Changelog
 0.1dev (unreleased)
 -------------------
 
+- Added zettwerk.mobiletheming package as dependency from GS profile[macagua]
+
 - Added a simple Diazo theme package (Zip file) [macagua]
 
 - Added HTML5 validation for HTML files [macagua]
