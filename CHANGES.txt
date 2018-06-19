@@ -5,6 +5,8 @@ Changelog
 0.1dev (unreleased)
 -------------------
 
+- Updated diazo theme manifest file [macagua]
+
 - Added improvements about README file [macagua]
 
 - Package created 
