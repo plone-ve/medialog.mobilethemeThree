@@ -53,13 +53,14 @@ setup(name='medialog.mobilethemeThree',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
+          'setuptools',
+          # -*- Extra requirements: -*-
           'ftw.mobilenavigation',
           'plone.api',
           'plone.app.themingplugins',
           'z3c.jbot',
           'zettwerk.mobiletheming',
           
-          # -*- Extra requirements: -*-
       ],
       entry_points="""
       # -*- Entry points: -*-

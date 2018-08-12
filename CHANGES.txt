@@ -5,7 +5,10 @@ Changelog
 0.1dev (unreleased)
 -------------------
 
-- Added zettwerk.mobiletheming package as dependency from GS profile[macagua]
+- Fixed Warning "Develop distribution: medialog.mobilethemeThree 0.1 uses 
+  namespace packages but the distribution does not require setuptools" [macagua]
+
+- Added zettwerk.mobiletheming package as dependency from GS profile [macagua]
 
 - Added a simple Diazo theme package (Zip file) [macagua]
 
